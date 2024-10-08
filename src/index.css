@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Georgia:wght@400;700&family=Arial:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-dark-blue: #1a202c;
+  --color-light-blue: #4a5568;
+  --color-white: #ffffff;
+  --color-off-white: #e2e8f0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: var(--color-white);
+  background-color: var(--color-dark-blue);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Georgia', serif;
+}
+
+.btn-primary {
+  @apply bg-white text-dark-blue font-bold py-2 px-6 rounded-full hover:bg-off-white transition duration-300;
+}
+
+p {
+  @apply font-bold text-white;
+}
+
+.bg-primary {
+  background-color: var(--color-dark-blue);
+}
+
+.bg-secondary {
+  background-color: var(--color-light-blue);
+}
+
+.text-primary {
+  color: var(--color-white);
+}
+
+.text-secondary {
+  color: var(--color-off-white);
+}
