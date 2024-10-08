@@ -8,8 +8,8 @@ const About = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="w-full md:w-1/2 mb-8 md:mb-0 md:pr-8">
             <div className="flex space-x-4">
-              <div className="w-1/2 h-64 bg-light-blue rounded-lg"></div>
-              <div className="w-1/2 h-64 bg-light-blue rounded-lg"></div>
+              <img src="/assets/images/foto1.png" alt="Camila Rivas" className="w-1/2 h-128 bg-light-blue rounded-lg" />
+              <div className="w-1/2 h-128 bg-light-blue rounded-lg"></div>
             </div>
           </div>
           <div className="w-full md:w-1/2">

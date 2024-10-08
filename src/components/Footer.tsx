@@ -8,8 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4">Información de Contacto</h3>
-            <p className="text-off-white">Calle Principal 123, Ciudad, País</p>
-            <p className="text-off-white">Teléfono: (+00) 123 456 789</p>
+            <p className="text-off-white">Teléfono: (+56) 9 6522 0739</p>
             <p className="text-off-white">Email: contacto@lfabogados.cl</p>
           </div>
           <div>
