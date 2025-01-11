@@ -1,6 +1,20 @@
 import { Instagram, Linkedin } from 'lucide-react'
 
 const Footer = () => {
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId)
+    if (element) {
+      const headerOffset = 80
+      const elementPosition = element.getBoundingClientRect().top
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      })
+    }
+  }
+
   return (
     <footer className="bg-dark-blue text-white py-12">
       <div className="container mx-auto px-4">
@@ -13,12 +27,10 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Enlaces Rápidos</h3>
             <ul>
-              <li><a href="#" className="text-off-white hover:text-white">Inicio</a></li>
-              <li><a href="#" className="text-off-white hover:text-white">Servicios</a></li>
-              <li><a href="#" className="text-off-white hover:text-white">Equipo</a></li>
-{/*               <li><a href="#" className="text-off-white hover:text-white">Blog</a></li> */}
-              <li><a href="#" className="text-off-white hover:text-white">Contacto</a></li>
-{/*               <li><a href="#" className="text-off-white hover:text-white">FAQ</a></li> */}
+              <li><button onClick={() => scrollToSection('inicio')} className="text-off-white hover:text-white cursor-pointer">Inicio</button></li>
+              <li><button onClick={() => scrollToSection('servicios')} className="text-off-white hover:text-white cursor-pointer">Servicios</button></li>
+              <li><button onClick={() => scrollToSection('nosotros')} className="text-off-white hover:text-white cursor-pointer">Nosotros</button></li>
+              <li><button onClick={() => scrollToSection('contacto')} className="text-off-white hover:text-white cursor-pointer">Contacto</button></li>
             </ul>
           </div>
           <div>
