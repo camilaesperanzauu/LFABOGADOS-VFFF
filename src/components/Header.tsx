@@ -17,6 +17,21 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen)
   }
 
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId)
+    if (element) {
+      const headerOffset = 80
+      const elementPosition = element.getBoundingClientRect().top
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      })
+    }
+    setIsMenuOpen(false)
+  }
+
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       isScrolled ? 'bg-dark-blue/95 backdrop-blur-md shadow-lg' : 'bg-dark-blue'
@@ -30,10 +45,10 @@ const Header = () => {
           <div className="hidden md:flex items-center">
             <nav>
               <ul className="flex space-x-6 mr-4">
-                <li><a href="#" className="hover:text-off-white transition-colors duration-200 relative after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:h-[2px] after:w-0 after:bg-white after:transition-all hover:after:w-full">Inicio</a></li>
-                <li><a href="#" className="hover:text-off-white transition-colors duration-200 relative after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:h-[2px] after:w-0 after:bg-white after:transition-all hover:after:w-full">Servicios</a></li>
-                <li><a href="#" className="hover:text-off-white transition-colors duration-200 relative after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:h-[2px] after:w-0 after:bg-white after:transition-all hover:after:w-full">Equipo</a></li>
-                <li><a href="#" className="hover:text-off-white transition-colors duration-200 relative after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:h-[2px] after:w-0 after:bg-white after:transition-all hover:after:w-full">Contacto</a></li>
+                <li><button onClick={() => scrollToSection('inicio')} className="hover:text-off-white transition-colors duration-200 relative after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:h-[2px] after:w-0 after:bg-white after:transition-all hover:after:w-full">Inicio</button></li>
+                <li><button onClick={() => scrollToSection('servicios')} className="hover:text-off-white transition-colors duration-200 relative after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:h-[2px] after:w-0 after:bg-white after:transition-all hover:after:w-full">Servicios</button></li>
+                <li><button onClick={() => scrollToSection('nosotros')} className="hover:text-off-white transition-colors duration-200 relative after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:h-[2px] after:w-0 after:bg-white after:transition-all hover:after:w-full">Nosotros</button></li>
+                <li><button onClick={() => scrollToSection('contacto')} className="hover:text-off-white transition-colors duration-200 relative after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:h-[2px] after:w-0 after:bg-white after:transition-all hover:after:w-full">Contacto</button></li>
               </ul>
             </nav>
           </div>
@@ -47,10 +62,10 @@ const Header = () => {
       }`}>
         <nav className="px-4 pt-2 pb-4">
           <ul className="space-y-3">
-            <li><a href="#" className="block hover:text-off-white transition-colors duration-200 hover:translate-x-2 transform">Inicio</a></li>
-            <li><a href="#" className="block hover:text-off-white transition-colors duration-200 hover:translate-x-2 transform">Servicios</a></li>
-            <li><a href="#" className="block hover:text-off-white transition-colors duration-200 hover:translate-x-2 transform">Equipo</a></li>
-            <li><a href="#" className="block hover:text-off-white transition-colors duration-200 hover:translate-x-2 transform">Contacto</a></li>
+            <li><button onClick={() => scrollToSection('inicio')} className="block w-full text-left hover:text-off-white transition-colors duration-200 hover:translate-x-2 transform">Inicio</button></li>
+            <li><button onClick={() => scrollToSection('servicios')} className="block w-full text-left hover:text-off-white transition-colors duration-200 hover:translate-x-2 transform">Servicios</button></li>
+            <li><button onClick={() => scrollToSection('nosotros')} className="block w-full text-left hover:text-off-white transition-colors duration-200 hover:translate-x-2 transform">Nosotros</button></li>
+            <li><button onClick={() => scrollToSection('contacto')} className="block w-full text-left hover:text-off-white transition-colors duration-200 hover:translate-x-2 transform">Contacto</button></li>
           </ul>
         </nav>
       </div>

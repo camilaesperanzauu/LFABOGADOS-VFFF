@@ -12,12 +12,21 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-100">
       <Header />
-      <Hero />
-      <Services />
-      <About />
-      <Testimonials />
-{/*       <Blog /> */}
-      <Contact />
+      <div id="inicio">
+        <Hero />
+      </div>
+      <div id="servicios">
+        <Services />
+      </div>
+      <div id="nosotros">
+        <About />
+      </div>
+      <div id="testimonios">
+        <Testimonials />
+      </div>
+      <div id="contacto">
+        <Contact />
+      </div>
       <Footer />
       <ChatButton />
     </div>
