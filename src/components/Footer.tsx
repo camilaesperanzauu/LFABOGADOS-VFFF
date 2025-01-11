@@ -17,9 +17,9 @@ const Footer = () => {
               <li><a href="#" className="text-off-white hover:text-white">Inicio</a></li>
               <li><a href="#" className="text-off-white hover:text-white">Servicios</a></li>
               <li><a href="#" className="text-off-white hover:text-white">Equipo</a></li>
-              <li><a href="#" className="text-off-white hover:text-white">Blog</a></li>
+{/*               <li><a href="#" className="text-off-white hover:text-white">Blog</a></li> */}
               <li><a href="#" className="text-off-white hover:text-white">Contacto</a></li>
-              <li><a href="#" className="text-off-white hover:text-white">FAQ</a></li>
+{/*               <li><a href="#" className="text-off-white hover:text-white">FAQ</a></li> */}
             </ul>
           </div>
           <div>
@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
         <div className="mt-8 pt-8 border-t border-light-blue">
           <div className="flex flex-wrap justify-between">
-            <p className="text-off-white">&copy; 2024 LFABOGADOS. Todos los derechos reservados.</p>
+            <p className="text-off-white">&copy; 2025 LFABOGADOS. Todos los derechos reservados.</p>
             <div>
               <a href="#" className="mr-4 text-off-white hover:text-white">Términos y Condiciones</a>
               <a href="#" className="mr-4 text-off-white hover:text-white">Política de Privacidad</a>
