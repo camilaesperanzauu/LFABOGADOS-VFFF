@@ -1,10 +1,8 @@
-import React from 'react'
-
 const Contact = () => {
   return (
     <section className="py-20 bg-dark-blue text-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12">Contáctanos</h2>
+        <h2 className="text-3xl font-bold text-center mb-12">Contáctenos</h2>
         <div className="max-w-2xl mx-auto bg-light-blue p-8 rounded-lg shadow-md">
           <form>
             <div className="mb-4">

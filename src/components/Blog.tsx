@@ -1,5 +1,3 @@
-import React from 'react'
-
 const blogPosts = [
   {
     title: "Cambios recientes en la legislación laboral",
