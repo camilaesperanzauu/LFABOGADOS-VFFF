@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Scale, Search, Menu, X } from 'lucide-react'
 
 const Header = () => {
@@ -22,15 +22,15 @@ const Header = () => {
                 <li><a href="#" className="hover:text-off-white">Inicio</a></li>
                 <li><a href="#" className="hover:text-off-white">Servicios</a></li>
                 <li><a href="#" className="hover:text-off-white">Equipo</a></li>
-                <li><a href="#" className="hover:text-off-white">Blog</a></li>
+{/*                 <li><a href="#" className="hover:text-off-white">Blog</a></li> */}
                 <li><a href="#" className="hover:text-off-white">Contacto</a></li>
-                <li><a href="#" className="hover:text-off-white">FAQ</a></li>
+{/*                 <li><a href="#" className="hover:text-off-white">FAQ</a></li> */}
               </ul>
             </nav>
-            <div className="relative">
+{/*             <div className="relative">
               <input type="text" placeholder="Buscar..." className="bg-light-blue text-white px-3 py-1 rounded-full focus:outline-none" />
               <Search size={20} className="absolute right-2 top-1/2 transform -translate-y-1/2 text-off-white" />
-            </div>
+            </div> */}
           </div>
           <button className="md:hidden" onClick={toggleMenu}>
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
