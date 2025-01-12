@@ -10,8 +10,8 @@ const testimonials = [
     text: "Gracias a su vasta experiencia y enfoque estratégico, no solo logré obtener las indemnizaciones que inicialmente esperaba, sino que superaron ampliamente mis expectativas. Su apoyo profesional y comprometido marcó la diferencia en mi caso, asegurando un resultado mucho más favorable del que hubiera imaginado."
   },
   {
-    name: "Ana Martínez",
-    text: "Su asesoría personalizada fue crucial para resolver mi situación legal. Altamente recomendados."
+    name: "Constanza Escudero",
+    text: "Fui despedida, sin derecho a recibir ninguna indemnización. Gracias a la asesoría experta y el compromiso del equipo de LFABOGADOS, lograron revertir la situación y alcanzar un excelente acuerdo. Esto no solo me permitió obtener las indemnizaciones que inicialmente me habían negado, sino que también superaron mis expectativas, garantizando un resultado justo y favorable. Recomiendo plenamente su profesionalismo y dedicación en la defensa de los derechos laborales."
   }
 ]
 
