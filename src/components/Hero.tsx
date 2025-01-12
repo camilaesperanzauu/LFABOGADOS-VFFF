@@ -9,28 +9,28 @@ const Hero = () => {
         <div className="w-full md:w-1/2 text-center md:text-left mb-8 md:mb-0">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Investigación, defensa y compromiso con tus intereses</h1>
           <div className="space-y-4 text-lg mb-8 font-medium text-off-white">
-            <p className="mb-4">
+            <p className="mb-4 text-justify">
               Somos expertos en derecho laboral, familiar e investigaciones internas, comprometidos con proteger tus intereses y ofrecerte respaldo en cada etapa de tu vida.
             </p>
 
             <div className="space-y-4">
               <div>
                 <h2 className="text-xl font-bold mb-2">Ámbito Laboral</h2>
-                <p>Te asesoramos en conflictos, despidos injustificados y negociaciones colectivas, luchando por la justicia en tu entorno de trabajo.</p>
+                <p className="text-justify">Te asesoramos en conflictos, despidos injustificados y negociaciones colectivas, luchando por la justicia en tu entorno de trabajo.</p>
               </div>
 
               <div>
                 <h2 className="text-xl font-bold mb-2">Ámbito Corporativo</h2>
-                <p>Llevamos a cabo investigaciones internas para identificar irregularidades, fortalecer la ética empresarial y garantizar la transparencia dentro de tu organización.</p>
+                <p className="text-justify">Llevamos a cabo investigaciones internas para identificar irregularidades, fortalecer la ética empresarial y garantizar la transparencia dentro de tu organización.</p>
               </div>
 
               <div>
                 <h2 className="text-xl font-bold mb-2">Ámbito Familiar</h2>
-                <p>Te acompañamos en procesos como divorcios, regulación de visitas y pensión alimenticia, priorizando el bienestar de tus seres queridos.</p>
+                <p className="text-justify">Te acompañamos en procesos como divorcios, regulación de visitas y pensión alimenticia, priorizando el bienestar de tus seres queridos.</p>
               </div>
             </div>
 
-            <p className="mt-6 italic">
+            <p className="mt-6 italic text-justify">
               Con experiencia, empatía y compromiso, trabajamos para garantizar tu tranquilidad y seguridad legal. ¡Déjanos ser tu defensa en los momentos clave de tu vida!
             </p>
           </div>
