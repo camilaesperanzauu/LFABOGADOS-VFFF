@@ -19,7 +19,7 @@ const Hero = () => {
           </a>
         </div>
         <div className="hidden md:block w-full md:w-1/2">
-          <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Justicia y Familia" className="rounded-lg shadow-lg" />
+          <img src="https://i.imgur.com/cGI223Y.png" alt="Justicia y Familia" className="rounded-lg shadow-lg" />
         </div>
       </div>
     </section>
