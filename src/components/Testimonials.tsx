@@ -6,8 +6,8 @@ const testimonials = [
     text: "En 2024, enfrenté un despido por supuesto incumplimiento grave, pero gracias a LFAbogados logré alcanzar un acuerdo altamente favorable. Su asesoría experta me permitió obtener mis indemnizaciones completas y superar esta situación con éxito. Recomiendo plenamente su servicio profesional y comprometido."
   },
   {
-    name: "Carlos Rodríguez",
-    text: "Gracias a su experiencia en derecho laboral, pude obtener la compensación que merecía. Excelente servicio."
+    name: "Maria de los Angeles Villarroel",
+    text: "Gracias a su vasta experiencia y enfoque estratégico, no solo logré obtener las indemnizaciones que inicialmente esperaba, sino que superaron ampliamente mis expectativas. Su apoyo profesional y comprometido marcó la diferencia en mi caso, asegurando un resultado mucho más favorable del que hubiera imaginado."
   },
   {
     name: "Ana Martínez",

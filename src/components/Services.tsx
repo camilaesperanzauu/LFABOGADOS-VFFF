@@ -19,7 +19,7 @@ const Services = () => {
     {
       icon: Briefcase,
       title: "Derecho Laboral",
-      description: "Protección de tus derechos en el ámbito laboral."
+      description: "Protección integral de tus derechos laborales con representación judicial y administrativa, incluyendo defensa en comparendos ante la Inspección del Trabajo"
     },
     {
       icon: UserCheck,
@@ -33,8 +33,8 @@ const Services = () => {
     },
     {
       icon: Users2,
-      title: "Derecho de Familia",
-      description: "Asesoramiento en divorcios, custodia y pensiones alimenticias."
+      title: "Investigaciones Internas",
+      description: "Prevención, transparencia y resolución efectiva en investigaciones internas corporativas."
     }
   ]
 
