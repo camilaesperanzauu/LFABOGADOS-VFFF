@@ -38,10 +38,13 @@ const Header = () => {
     }`}>
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
-          <div className="flex items-center">
+          <button 
+            onClick={() => scrollToSection('inicio')} 
+            className="flex items-center hover:opacity-80 transition-opacity"
+          >
             <Scale size={32} className="mr-2 transition-transform hover:scale-110" />
             <span className="text-2xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">LFABOGADOS</span>
-          </div>
+          </button>
           <div className="hidden md:flex items-center">
             <nav>
               <ul className="flex space-x-6 mr-4">
