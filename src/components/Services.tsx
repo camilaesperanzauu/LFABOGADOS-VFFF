@@ -19,7 +19,7 @@ const Services = () => {
     {
       icon: Briefcase,
       title: "Derecho Laboral",
-      description: "Protección integral de tus derechos laborales con representación judicial y administrativa, incluyendo defensa en comparendos ante la Inspección del Trabajo"
+      description: "Protección integral de tus derechos laborales con representación judicial y administrativa, incluyendo defensa en comparendos ante la Inspección del Trabajo."
     },
     {
       icon: UserCheck,
