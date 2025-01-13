@@ -14,7 +14,7 @@ const Services = () => {
     {
       icon: Users,
       title: "Derecho de Familia",
-      description: "Asesoramiento en divorcios, custodia y pensiones alimenticias."
+      description: "Asesoramiento en divorcios, cuidado personal, visitas, pensiones alimenticias, medidas de protección."
     },
     {
       icon: Briefcase,
