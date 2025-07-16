@@ -10,7 +10,7 @@ const ChatButton = () => {
       href={whatsappUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-4 right-4 bg-white text-dark-blue p-4 rounded-full shadow-lg hover:bg-off-white transition duration-300"
+      className="fixed bottom-4 right-4 bg-main-rose text-white p-4 rounded-full shadow-lg hover:bg-coral-pink transition duration-300"
     >
       <MessageCircle size={24} />
     </a>

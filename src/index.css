@@ -5,16 +5,21 @@
 @tailwind utilities;
 
 :root {
-  --color-dark-blue: #1a202c;
-  --color-light-blue: #4a5568;
-  --color-white: #FCFBE7;
-  --color-off-white: #e2e8f0;
+  --color-dark-blue: #2d1b2e;
+  --color-light-blue: #e4b5b5;
+  --color-white: #ffffff;
+  --color-off-white: #f7f1f1;
+  --color-coral-pink: #d19a9a;
+  --color-soft-pink: #f4ebe9;
+  --color-main-rose: #c4918e;
+  --color-dark-text: #5a4a47;
+  --color-medium-text: #7a6865;
 }
 
 body {
   font-family: 'Arial', sans-serif;
-  color: var(--color-white);
-  background-color: var(--color-dark-blue);
+  color: var(--color-dark-text);
+  background-color: var(--color-soft-pink);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,11 +27,34 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-primary {
-  @apply bg-white text-dark-blue font-bold py-2 px-6 rounded-full hover:bg-off-white transition duration-300;
+  background-color: var(--color-main-rose);
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 9999px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-coral-pink);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(196, 145, 142, 0.3);
 }
 
 p {
-  @apply font-bold text-white;
+  font-weight: 600;
+  color: var(--color-dark-text);
+  line-height: 1.6;
+}
+
+/* Mejorar contraste para elementos específicos */
+.text-contrast {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Asegurar alta legibilidad en elementos blancos */
+.bg-white {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .bg-primary {

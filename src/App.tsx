@@ -10,7 +10,7 @@ import ChatButton from './components/ChatButton'
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-soft-pink">
       <Header />
       <div id="inicio">
         <Hero />
